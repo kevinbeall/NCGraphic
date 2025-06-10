@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+#export SEN="production"
+export SEN="dev";
+APP=$1
+echo called with $APP
+yarn run build;
+
+hr5;
+
+case $APP in
+    injector)
+        echo -e "running  \033[1;33minjector\033[39m";
+        node dist/injector_server.js;
+        ;;
+    admin)
+        echo -e "running  \033[1;34madmin\033[39m";
+        node dist/admin_server.js;
+        ;;
+    # display)
+    #     echo -e "running  \033[1;35mdisplay\033[39m";
+    #     node dist/display_server.js;
+    #     ;;
+    # test)
+    #     echo -e "running  \033[1;36mtests\033[39m";
+    #     echo "Write some tests first"
+    #     ;;
+    *)
+        echo -e "running  \033[1;34mAdmin \033[39m";
+        node dist/graphical_display_server.js;
+        ;;
+esac
+

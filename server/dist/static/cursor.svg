@@ -1,0 +1,18 @@
+<svg
+   width="50"
+   height="50"
+   viewBox="0 0 50 50"
+   id="circle_diagonal_cross_small_icon"
+   version="1.1"
+   >
+  <g class="device_icon">
+    <circle
+       id="circle"
+       cx="25"
+       cy="25"
+       r="23" />
+    <path d="M 7.3437897,7.248653 42.489069,42.481358" />
+    <path d="M 7.0815115,42.831062 42.663921,7.248653" />
+
+  </g>
+</svg>

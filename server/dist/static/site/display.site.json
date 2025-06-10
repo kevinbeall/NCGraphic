@@ -1,0 +1,38 @@
+{
+    "site_name": "Example",
+    "events": {
+        "default_enders": [
+            128,
+            129,
+            130
+        ],
+        "events": [
+            {
+                "starters": [
+                    136
+                ],
+                "animations": [
+                    "scale",
+                    "greenfill"
+                ]
+            },
+            {
+                "starters": [
+                    138
+                ],
+                "animations": [
+                    "scale",
+                    "redfill"
+                ]
+            }
+        ]
+    },
+    "zones": [
+        {
+            "display_name": "Ground Floor",
+            "map_file": "ExampleFloorplan.svg",
+            "map_data": ""
+        }
+    ],
+    "site_version": "1.0.0"
+}

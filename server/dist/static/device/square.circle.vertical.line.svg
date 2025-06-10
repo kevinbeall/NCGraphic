@@ -1,0 +1,23 @@
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+
+   width="50"
+   height="50"
+   viewBox="0 0 50 50"
+   id="square_circle_vertical_line"
+>
+  <g class="device_icon"  style="fill:none;stroke:#000000;stroke-width:3" >
+      <rect     
+     id="square"
+     width="48"
+     height="48"
+     x="1"
+     y="1" />
+
+    <circle
+       cx="25"
+       cy="25"
+       r="23" />
+    <path d="M 25,0 V 50"/>
+  </g>
+</svg>

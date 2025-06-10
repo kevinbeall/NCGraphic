@@ -1,0 +1,96 @@
+{
+    "end_events": [128],
+    "animations": [
+        {
+            "id": "slow.scale",
+            "begin": "indefinite",
+            "attributeName": "r",
+            "repeatCount": "indefinite",
+            "values": "1; 50; 100; 150; 200",
+            "keyTimes": "0; 0.25; 0.5;0.75; 1",
+            "dur": "3s"
+        },
+        {
+            "id": "scale",
+            "begin": "indefinite",
+            "attributeName": "r",
+            "repeatCount": "indefinite",
+            "values": "1; 50; 100; 150; 200",
+            "keyTimes": "0; 0.25; 0.5;0.75; 1",
+            "dur": "2s"
+        },
+        {
+            "id": "fast.scale",
+            "begin": "indefinite",
+            "attributeName": "r",
+            "repeatCount": "indefinite",
+            "values": "1; 50; 100; 150; 200",
+            "keyTimes": "0; 0.25; 0.5;0.75; 1",
+            "dur": "0.25s"
+        },
+        {
+            "id": "solid.scale",
+            "begin": "indefinite",
+            "attributeName": "r",
+            "repeatCount": "indefinite",
+            "values": "100; 110;100",
+            "keyTimes": "0;0.5; 1",
+            "dur": "6s"
+        },
+        {
+            "id": "red",
+            "begin": "indefinite",
+            "attributeName": "fill",
+            "repeatCount": "indefinite",
+            "values": "#AA0000;  #FF0000; #AA0000",
+            "keyTimes": "0;0.5; 1",
+            "dur": "6s"
+        },
+        {
+            "id": "green",
+            "begin": "indefinite",
+            "attributeName": "fill",
+            "repeatCount": "indefinite",
+            "values": "#00AA00; #00FF00;#00AA00",
+            "keyTimes": "0;0.5;1",
+            "dur": "6s"
+        },
+        {
+            "id": "red.green",
+            "begin": "indefinite",
+            "attributeName": "fill",
+            "repeatCount": "indefinite",
+            "values": "#AA0000; #FF0000;#00FF00; #00AA00",
+            "keyTimes": "0;0.49;0.51;1",
+            "dur": "3s"
+        }
+
+    ],
+    "sequences": [
+        {
+            "id": "call",
+            "events": [136],
+            "animations": ["slow.scale", "red"]
+        },
+        {
+            "id": "accepted",
+            "events": [130],
+            "animations": ["slow.scale", "green"]
+        },
+        {
+            "id": "presence",
+            "events": [129],
+            "animations": ["solid.scale", "green"]
+        },
+        {
+            "id": "assistance",
+            "events": [137],
+            "animations": ["solid.scale", "red.green"]
+        },
+        {
+            "id": "emergency",
+            "events": [138, 140],
+            "animations": ["fast.scale", "red"]
+        }
+    ]
+}

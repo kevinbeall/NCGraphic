@@ -1,0 +1,31 @@
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+
+   width="50"
+   height="100"
+   viewBox="0 0 50 100"
+   id="l672"
+ preserveAspectRatio="xMaxYMin meet"
+>
+  <g class="device_icon"  style="fill:none;stroke:#000000;stroke-width:3" >
+    <rect     
+        id="border"
+        width="50"
+        height="100"
+        x="0"
+        y="0" />
+
+    <circle
+       cx="25"
+       cy="27"
+       r="20" />
+
+    <rect     
+        id="square"
+        width="35"
+        height="35"
+        x="7.5"
+        y="55" />
+
+  </g>
+</svg>

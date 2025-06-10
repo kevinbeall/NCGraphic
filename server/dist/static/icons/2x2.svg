@@ -1,0 +1,38 @@
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   width="50px"
+   height="50px"
+   viewBox="0 0 50px 50px"
+   preserveAspectRatio="xMidYMid meet"
+>
+  
+  <g class="ui_icon">
+      <rect              
+          width="22"
+          height="22"
+          x="1"
+          y="1"
+      />
+      <rect              
+          width="22"
+          height="22"
+          x="27"
+          y="1"
+      />
+
+      <rect              
+          width="22"
+          height="22"
+          x="1"
+          y="27"
+      />
+
+      <rect              
+          width="22"
+          height="22"
+          x="27"
+          y="27"
+      />
+
+</g>
+</svg>
