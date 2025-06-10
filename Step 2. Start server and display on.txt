@@ -1,0 +1,31 @@
+Step 2. Start server and display on startup
+
+A:
+
+1. Right click StartServer.bat
+7. Click Create Shortcut
+8. Right Click the Shortcut and Cut
+9. Click Start search for run and press enter
+10. Type "shell:startup" Enter
+11. Paste into this folder
+12. Right click on shortcut
+13. Select properties
+14. Change Run to minimised, Apply
+15. Right Click on shortcut and copy
+16. Paste to desktop and rename "RestartDisplayServer"
+
+B:
+1. Right Click on Desktop and select new, shortcut
+2. Type "http://<PCIPAddress>:9090" 
+3. Next
+4. Rename "Graphical Display"
+5. Finish
+6. Right click shortcut and select properties
+7. Web Document tab select change icon. browse in graphic folder to server and select favicon and apply.
+6. Right click on the new shortcut and copy.
+7. Click Start search run and press enter
+8. Type "shell:startup" Enter
+9. Paste shortcut into folder with shortcut from A
+10. Close all windows and restart PC 
+
+Both server and graphic will now open on startup.

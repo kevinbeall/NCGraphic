@@ -1,0 +1,6 @@
+Step 1. Configure Server
+
+1. Run DepInstall and close once complete 
+2. Run Start Server
+
+Continue to Step 2.
