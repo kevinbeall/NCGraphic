@@ -1,0 +1,39 @@
+{
+    "site_name": "example",
+    "zones": [
+        {
+            "display_name": "Ground Floor",
+            "map_file": "ExampleFloorplan.svg",
+            "map_data": ""
+        }
+    ],
+    "device_type_icons": [],
+    "config_version": "0.0.0",
+    "device_types": [
+        {
+            "name": "AIRX7 (L)",
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"50px\" height=\"50px\" viewBox=\"0 0 50 50\" preserveAspectRatio=\"xMidYMid meet\">\n  \n  <g class=\"device_icon\" x=\"0\" y=\"0\" style=\"fill:none;stroke:#000000;stroke-width:3\">\n     <circle id=\"circle\" cx=\"25\" cy=\"25\" r=\"23\"></circle>\n\n    <path d=\"M 0,0 50,50\"></path>\n    <path d=\"M 0,50 50,0\"></path>\n  </g>\n</svg>",
+            "uid": "03f3dfb9-d4f7-4163-aa06-b6af1d51ad42"
+        },
+        {
+            "name": "L733",
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"50\" height=\"50\" viewBox=\"0 0 50 50\" id=\"square_circle_vertical_line\">\n  <g class=\"device_icon\">\n      <rect id=\"square\" width=\"48\" height=\"48\" x=\"1\" y=\"1\"></rect>\n\n    <circle cx=\"25\" cy=\"25\" r=\"23\"></circle>\n    <path d=\"M 25,0 V 50\"></path>\n  </g>\n</svg>",
+            "uid": "15671548-776c-45a5-9012-15a5ed169677"
+        },
+        {
+            "name": "L622 (L)",
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"50\" height=\"50\" viewBox=\"0 0 50 50\" id=\"square_diagonal_cross\">\n  <g class=\"device_icon\">\n      <rect width=\"48\" height=\"48\" x=\"1\" y=\"1\"></rect>\n      <path d=\"M 0,0 50,50\"></path>\n      <path d=\"M 0,50 50,0\"></path>\n  </g>\n</svg>",
+            "uid": "a5e4afa0-a402-4d83-a155-22b26e21f886"
+        },
+        {
+            "name": "L634",
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"50\" height=\"50\" viewBox=\"0 0 50 50\" id=\"square_triangle_icon\" version=\"1.1\">\n  <g class=\"device_icon\">\n    <rect id=\"square\" width=\"48\" height=\"48\" x=\"1\" y=\"1\"></rect>\n\n    <path d=\"M 6,44 44,44\"></path>\n    <path d=\"M 44,44 24,15\"></path>\n    <path d=\"M 24,15 6,44\"></path>\n  </g>\n\n</svg>",
+            "uid": "0d2d15c4-9768-433f-ad2b-3f6d3e917ccd"
+        },
+        {
+            "name": "L672",
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"50\" height=\"100\" viewBox=\"0 0 50 100\" id=\"l672\">\n  <g class=\"device_icon\" style=\"fill:none;stroke:#000000;stroke-width:3\">\n    <rect id=\"border\" width=\"50\" height=\"100\" x=\"0\" y=\"0\"></rect>\n\n    <circle cx=\"25\" cy=\"27\" r=\"20\"></circle>\n\n    <rect id=\"square\" width=\"35\" height=\"35\" x=\"7.5\" y=\"55\"></rect>\n\n  </g>\n</svg>",
+            "uid": "72e02cf7-2101-4e70-b165-271f1c72d661"
+        }
+    ]
+}

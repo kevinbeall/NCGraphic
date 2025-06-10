@@ -1,0 +1,14 @@
+echo -e "\n\033[93m=========================================================\033[0;35m|||\033[93m=="
+echo -e "\033[33m=========================================================\033[0;31m|||\033[33m=="
+echo -e "=========================================================\033[0;31m|||\033[33m=="
+echo -e "=========================================================\033[0;31m|||\033[33m=="
+echo -e "\033[93m=========================================================\033[0;35m|||\033[93m==\033[39m\n"
+
+
+echo -e "building  \033[1;33mgraphical display clients\033[39m";
+yarn run build ;
+cp dist/admin_client.js ../new.benvie.server/dist/static/admin_client.js;
+cp dist/display_client.js ../new.benvie.server/dist/static/display_client.js;
+cp dist/injector_client.js ../new.benvie.server/dist/static/injector_client.js;
+echo -e "\n\no+==========+> This is the \033[1;33mgraphical display clients\033[0m project =========|||==\n\n"
+

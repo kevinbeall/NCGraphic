@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="display.css">
+    <title>Graphical Display</title>
+
+    <script src="/socket.io/socket.io.js"  type="text/javascript"></script>
+    <script src="/display_client.js" type="text/javascript"> </script>
+
+  </head>
+  <body >
+      <div id="display_app">
+          <div id="header">
+              <div class="header_row">
+                <div id="header_sitename"></div>
+                <div class="ui_buttonbar">
+                    <div class="ui_icon"><div id="ui_two_column" title="Multi Column Layout"></div></div>
+                    <div class="ui_icon"><div id="ui_one_column" title="One Column Layout"></div></div>
+                    <div class="ui_icon"><div id="ui_one_row" title="One Row Layout"></div></div>
+                </div>
+                <div class="ui_toolbar">
+                    <div class="ui_tool"><div id="tool_refresh_events" title="Refresh Events :  Click here if the display has become out of sync with the system"></div></div>
+                    <div class="ui_tool"><div id="tool_fullscreen" title="Full Screen"></div><div id="tool_exit_fullscreen" class="hidden" title="Exit Full Screen"></div></div>
+                    <div class="ui_tool"><div id="tool_resize_up" title="Resize the floor images up"></div></div>
+                    <div class="ui_tool"><div id="tool_resize_down" title="Resize the floor images down"></div></div>
+
+
+                </div>
+                </div>
+
+          </div>
+          <div id="mapbox"></div>
+
+      </div>
+  </body>
+</html>

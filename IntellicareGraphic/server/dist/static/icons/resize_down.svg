@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="24px"
+   height="24px"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg1295"
+   sodipodi:docname="resize_down.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata1301">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>ic_fluent_keyboard_layout_resize_24_filled</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1299" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1508"
+     inkscape:window-height="1113"
+     id="namedview1297"
+     showgrid="false"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="12"
+     inkscape:cy="12"
+     inkscape:window-x="992"
+     inkscape:window-y="331"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1295" />
+  <!-- Uploaded to SVGRepo https://www.svgrepo.com -->
+  <title
+     id="title1288">ic_fluent_keyboard_layout_resize_24_filled</title>
+  <desc
+     id="desc1290">Created with Sketch.</desc>
+  <g
+     id="🔍-Product-Icons"
+     transform="rotate(-180,12,12)"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
+    <g
+       id="ic_fluent_keyboard_layout_resize_24_filled"
+       style="fill:#212121;fill-rule:nonzero">
+      <path
+         d="m 21.25,10.5 c 0.379696,0 0.693491,0.282154 0.743153,0.648229 L 22,11.25 v 8.5 c 0,1.190864 -0.925162,2.165645 -2.095951,2.244809 L 19.75,22 h -2 C 17.335786,22 17,21.664214 17,21.25 c 0,-0.379696 0.282154,-0.693491 0.648229,-0.743153 L 17.75,20.5 h 2 c 0.379696,0 0.693491,-0.282154 0.743153,-0.648229 L 20.5,19.75 v -8.5 c 0,-0.414214 0.335786,-0.75 0.75,-0.75 z m 0,-8.5 0.06947,0.00317 v 0 l 0.101898,0.01656 v 0 l 0.06792,0.019246 v 0 l 0.05885,0.022621 v 0 l 0.07091,0.035259 0.0824,0.054107 v 0 l 0.08014,0.069951 0.05082,0.056423 0.04503,0.061488 0.05027,0.089399 v 0 l 0.01653,0.037399 v 0 l 0.0235,0.066216 v 0 c 0.01136,0.03709 0.01998,0.076232 0.02543,0.1163849 L 22,2.75 v 5 C 22,8.1642136 21.664214,8.5 21.25,8.5 20.870304,8.5 20.556509,8.2178461 20.506847,7.8517706 L 20.5,7.75 V 4.56 l -4.46967,4.4703301 c -0.292893,0.2928932 -0.767767,0.2928932 -1.06066,0 C 14.703403,8.7640635 14.679197,8.3473998 14.897052,8.0537884 L 14.96967,7.9696699 19.438,3.5 H 16.25 C 15.870304,3.5 15.556509,3.2178461 15.506847,2.8517706 L 15.5,2.75 c 0,-0.3796958 0.282154,-0.693491 0.648229,-0.7431534 L 16.25,2 Z m -8,8.5 c 1.190864,0 2.165645,0.925162 2.244809,2.095951 L 15.5,12.75 v 7 c 0,1.190864 -0.925162,2.165645 -2.095951,2.244809 L 13.25,22 h -9 C 3.059136,22 2.0843551,21.074838 2.0051908,19.904049 L 2,19.75 v -7 C 2,11.559136 2.9251616,10.584355 4.0959512,10.505191 L 4.25,10.5 Z m -2.5,7 h -4 C 6.34,17.5 6,17.870304 6,18.25 c 0,0.379696 0.2821539,0.693491 0.6482294,0.743153 L 6.75,19 h 4 c 0.41,0 0.75,-0.370304 0.75,-0.75 0,-0.379696 -0.282154,-0.693491 -0.648229,-0.743153 z M 6,13.5 c -0.5522848,0 -1,0.447715 -1,1 0,0.552285 0.4477152,1 1,1 0.5522847,0 1,-0.447715 1,-1 0,-0.552285 -0.4477153,-1 -1,-1 z m 5.5,0 c -0.552285,0 -1,0.447715 -1,1 0,0.552285 0.447715,1 1,1 0.552285,0 1,-0.447715 1,-1 0,-0.552285 -0.447715,-1 -1,-1 z m -2.75,0 c -0.5522847,0 -1,0.447715 -1,1 0,0.552285 0.4477153,1 1,1 0.5522848,0 1,-0.447715 1,-1 0,-0.552285 -0.4477152,-1 -1,-1 z m 4,-11.5 c 0.414214,0 0.75,0.3357864 0.75,0.75 0,0.3796958 -0.282154,0.693491 -0.648229,0.7431534 L 12.75,3.5 H 4.25 C 3.8703042,3.5 3.556509,3.7821539 3.5068466,4.1482294 L 3.5,4.25 v 4 C 3.5,8.6642136 3.1642136,9 2.75,9 2.3703042,9 2.056509,8.7178461 2.0068466,8.3517706 L 2,8.25 v -4 C 2,3.059136 2.9251616,2.0843551 4.0959512,2.0051908 L 4.25,2 Z"
+         id="🎨-Color"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

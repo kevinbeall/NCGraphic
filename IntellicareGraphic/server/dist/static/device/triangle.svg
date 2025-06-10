@@ -1,0 +1,16 @@
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+
+   width="50"
+   height="50"
+   viewBox="0 0 50 50"
+   id="triangle_icon"
+   version="1.1"
+>
+  <g class="device_icon"  style="fill:none;stroke:#000000;stroke-width:3" >
+    <path d="M 6,44 44,44"/>
+    <path d="M 44,44 24,15"/>
+    <path d="M 24,15 6,44"/>
+  </g>
+
+</svg>

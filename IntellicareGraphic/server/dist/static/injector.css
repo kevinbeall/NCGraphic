@@ -1,0 +1,324 @@
+html
+{
+    overflow: hidden;
+}
+
+body
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+
+body{
+    background-image: repeating-radial-gradient(circle at center center, transparent 0px, transparent 0px,rgba(0,0,0,0.03) 20px, rgba(0,0,0,0.03) 2px,transparent 3px, transparent 5px,rgba(0,0,0,0.03) 5px, rgba(0,0,0,0.03) 7px),repeating-radial-gradient(circle at center center, rgb(255,250,250) 50px, rgb(255,255,255) 99px,rgb(255,255,255) 99px, rgb(255,255,255) 2px,rgb(255,255,255) 2px, rgb(255,255,255) 1px,rgb(255,255,255) 11px, rgb(255,255,255) 20px);
+    background-size: 10px 10px;
+    overflow:hidden;
+}
+
+#injector_app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.injector_row{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.injector_warning{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:1px solid #aaa;
+    border-radius:1em;
+    padding:1em;
+    width:50%;
+    background-image: radial-gradient(circle at center center, rgb(71, 71, 71),rgb(8, 8, 8));
+    margin: 2.5em 0em;
+    box-shadow: 0px 0px 500px 50px #000;
+    text-align:center;
+}
+
+.injector_warning:hover{
+    box-shadow: 0px 0px 500px 25px #000;
+    border: 1px solid #fff;
+
+}
+
+.injector_warning_very_strong{
+    color: #F00;
+    padding: 0.5em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 0.25em;
+    background-image: radial-gradient(circle at center center, rgb(71, 71, 71),rgb(8, 8, 8));
+    border: 1px solid #333;
+    width:95%;
+}
+.injector_warning_quite_strong{
+    color: #ffff04;
+}
+.injector_warning_normal{
+    color: #BCBCFF;
+    padding: 1em;
+    width: 75%;
+    text-align: center;
+}
+
+#injector_form{
+    align-items: center;
+    background-image: radial-gradient(circle at center center, rgb(71, 71, 71),rgb(8, 8, 8));
+    border-radius: 0.5em;
+    border: 1px solid #aaa;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding: 3em;
+    box-shadow: 0px 0px 500px 50px #000;
+    margin: 1em 5em;
+}
+
+#injector_form:hover{
+    box-shadow: 0px 0px 500px 25px #000;
+    border: 1px solid #fff;
+
+}
+
+.injector_number_input_holder{
+    align-items: center;
+    border-radius: 0.25em;
+    border: 1px solid #777;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    width: 8em;
+    margin:0.25em;
+    background-color:#333;
+}
+
+.injector_string_input_holder{
+    align-items: center;
+    border-radius: 0.25em;
+    border: 1px solid #777;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    width: 16em;
+    margin:0.25em;
+    background-color:#333;
+}
+.injector_event_select_holder{
+    align-items: center;
+    border-radius: 0.25em;
+    border: 1px solid #777;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    width: 25%;
+    margin:0.25em;
+    min-width:13em;
+    background-color:#333;
+}
+.injector_broadcast_button_holder{
+    align-items: center;
+    border-radius: 0.25em;
+    border: 1px solid #777;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    margin:0.25em;
+    background-color:#333;
+    width:60%;
+}
+.injector_label{
+    font-weight: bold;
+    color:#FF0;
+    text-align:center;
+    margin: 0.25em;
+}
+.injector_number_input{
+    width:6em;
+    background-image: radial-gradient(circle at center center, rgb(250, 250, 250),rgb(200, 200, 220));
+    border:0px;
+    padding:0.5em;
+    border-radius: 0.5em;
+}
+#injector_supply_name{
+    background-image: radial-gradient(circle at center center, rgb(250, 250, 250),rgb(200, 200, 220));
+    border:0px;
+    padding:0.5em;
+    border-radius: 0.5em;
+}
+
+#injector_event_select{
+    padding:0.5em;
+    width:80%;
+    background-image: radial-gradient(circle at center center, rgb(250, 250, 250),rgb(200, 200, 220));
+    border:0px;
+    border-radius: 0.5em;
+
+}
+
+#injector_broadcast_button{
+    padding: 1em 1em;
+    border: 1px solid #FF0;
+    border-radius: 1em;
+    /* background-color: #FFF; */
+    font-weight: bold;
+    color: #00F;
+    width: 80%;
+    text-align: center;
+    cursor:pointer;
+    background-image: radial-gradient(circle at center center, rgb(250, 250, 250),rgb(200, 200, 220));
+
+}
+#injector_broadcast_button:hover{
+    border: 1px solid #0F0;
+    background-image: radial-gradient(circle at center center, rgb(250, 250, 250),rgb(220, 230, 220));
+
+}
+
+.form_error{
+    color:#777!important;
+    background-image: radial-gradient(circle at center center, rgb(150, 150, 150),rgb(128, 128, 128))!important;
+    border: 1px solid #F00!important;
+    color: #000!important;
+
+}
+.form_error:hover{
+    color:#777!important;
+    background-image: radial-gradient(circle at center center, rgb(150, 150, 150),rgb(128, 128, 128))!important;
+    border: 1px solid #F00!important;
+    color: #000!important;
+
+}
+
+#injector_history{
+    align-items: flex-start;
+    background-image: radial-gradient(circle at center center, rgb(71, 71, 71),rgb(8, 8, 8));
+    border-radius: 0.5em;
+    border: 1px solid #aaa;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding: 1em;
+    box-shadow: 0px 0px 500px 50px #000;
+    margin: 1em 5em;
+    flex-grow:1;
+    align-content: flex-start;
+    overflow:hidden;
+}
+.injector_history_entry_title{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin: 1em;
+    justify-content: flex-start;
+    background-image: radial-gradient(circle at center center, rgb(250, 250, 250),rgb(220, 200, 220));
+    border: 1px solid #aaa;
+    border-radius: 0.25em;
+    width: 100%;
+    padding: 0.25em 1em;
+
+}
+.injector_history_entry{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0.25em;
+    justify-content: flex-start;
+    background-image: radial-gradient(circle at center center, rgb(250, 250, 250),rgb(220, 200, 220));
+    padding: 1em;
+    border: 1px solid #aaa;
+    border-radius: 0.25em;
+
+}
+#injector_history_title{
+    background-color: #fff;
+    width: 100%;
+    padding: 0.25em 1em;
+    border: 1px solid #aaa;
+    border-radius: 0.25em;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    background-image: radial-gradient(circle at center center, rgb(250, 250, 250),rgb(200, 200, 220));
+
+}
+
+#injector_history_count{
+    font-size:1.25em;
+    color:#00A;
+    font-weight:bold;
+    margin:0.25em 0.5em;
+}
+
+
+#injector_history_holder{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    border:1px solid #444;
+    border-radius: 0.25em;
+    margin: 0.25em 1em;
+    width: 100%;
+    height:80%;
+    overflow:auto;
+}
+
+.injector_history_timestamp{
+    width: 11em;
+    font-size: 0.75em;
+    text-align:center;
+}
+
+.injector_history_event{
+    width: 20em;
+    font-size:0.75em;
+    color:#330;
+    font-weight:bold;
+    text-align:center;
+}
+
+.injector_history_address{
+    width: 6em;
+    font-size: 1em;
+    color:#030;
+    text-align:center;
+}
+
+.injector_history_channel{
+    width: 6em;
+    font-size: 1em;
+    color:#030;
+    text-align:center;
+}
+
+.injector_history_supply{
+    width: 6em;
+    font-size: 1em;
+    color:#066;
+    text-align:center;
+}

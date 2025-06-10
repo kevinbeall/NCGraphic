@@ -1,0 +1,43 @@
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   width="50px"
+   height="50px"
+   viewBox="0 0 50 50"
+   preserveAspectRatio="xMidYMid meet"
+   version="1.1"
+   id="svg6"
+>
+  <g
+     class="ui_tool"
+     id="g4"
+     style="fill:none;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke:#808080;stroke-opacity:1">
+    <circle
+       cx="25"
+       cy="25"
+       r="24"
+       id="circle2"
+       style="fill:none;fill-opacity:1;stroke:#808080;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     style="fill:none;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke:#404040;stroke-opacity:1"
+     id="g824"
+     class="ui_tool">
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#404040;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle822"
+       r="15"
+       cy="25"
+       cx="25" />
+  </g>
+  <g
+     class="ui_tool"
+     id="g847"
+     style="fill:none;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke:#000000;stroke-opacity:1">
+    <circle
+       cx="25"
+       cy="25"
+       r="5"
+       id="circle845"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

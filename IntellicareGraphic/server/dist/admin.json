@@ -1,0 +1,9 @@
+{
+    "http_port": 9090,
+    "udp_port": 6345,
+
+    "static_root": "./static",
+
+
+    "config_version": "0.0.0"
+}
